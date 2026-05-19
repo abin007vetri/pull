@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- favicon for tab logo -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  </head>
+
+  <body>
+    <header id="header">
+      <div>
+        <img id="logoimg" src="./assets/logo2.png" alt="logo" />
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACTS</a></li>
+        </ul>
+      </div>
+    </header>
+    <section id="home">
+      <div id="homecontents">
+        <h1 class="animate__animated animate__swing">
+          I AM ANNA
+          <span style="color: orange; font-family: cursive">STEEL</span>
+        </h1>
+        <p class="animate__animated animate__wobble">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+          impedit nihil officiis omnis possimus sint, esse non veniam corrupti
+          quae nulla enim sequi et ab inventore dolorem? Assumenda, harum
+          mollitia.
+        </p>
+        <a href="">DOWNLOAD CV</a>
+      </div>
+      <div id="homeimage">
+        <img id="shapeimg" src="./assets/shape.png" alt="" />
+        <img id="girlimg" src="./assets/girl.png" alt="" />
+      </div>
+    </section>
+    <section id="about">
+      <div class="headingcontainer">
+        <h1>About Me</h1>
+        <h3>Introduction</h3>
+      </div>
+      <div data-aos="flip-up" id="aboutcontainer">
+        <div id="aboutimage">
+          <img src="./assets/about.jpg" alt="" />
+        </div>
+        <div  id="aboutcontents" >
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut modi
+            earum vitae ullam beatae ea nesciunt. Deleniti fuga accusantium,
+            dolorem deserunt repellendus magnam doloribus! Qui, asperiores
+            reprehenderit! Eius, vitae facilis.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-user"></i>Anna Steel</li>
+            <li><i class="fa-solid fa-phone"></i>9087654321</li>
+            <li><i class="fa-solid fa-envelope"></i>anasteel@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div  class="headingcontainer">
+        <h1>SKILLS</h1>
+        <h3>My Skills</h3>
+      </div>
+
+      <div id="skillscontainer">
+        <div id="skillschart">
+          <div class="chartcontainer">
+            <h3>HTML</h3>
+            <h3>89%</h3>
+            <div class="basebar"></div>
+            <div id="basebar"></div>
+          </div>
+          <br /><br />
+          <div class="chartcontainer">
+            <h3>CSS</h3>
+            <h3>82%</h3>
+            <div class="basebar"></div>
+            <div id="cssbar"></div>
+          </div>
+          <br /><br />
+          <div class="chartcontainer">
+            <h3>JAVASCRIPT</h3>
+            <h3>84%</h3>
+            <div class="basebar"></div>
+            <div id="javascriptbar"></div>
+          </div>
+          <br /><br />
+          <div class="chartcontainer">
+            <h3>REACT</h3>
+            <h3>72%</h3>
+            <div class="basebar"></div>
+            <div id="reactbar"></div>
+          </div>
+          <br /><br />
+        </div>
+        <div id="skillimage">
+          <img src="./assets/skills.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="headingcontainer">
+        <h1>CONTACTS</h1>
+        <h3>My Contacts</h3>
+      </div>
+      <div id="iconcontainer">
+        <div class="eachicon">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="eachicon">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="eachicon">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="eachicon">
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="eachicon">
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy;My Portfolio Website - December 2025, All Rights Reserved to
+        &reg;Ana Steel
+      </p>
+      <div style="position: fixed; right: 0; bottom: 0" class="eachicon">
+        <a href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+  </body>
+  <script>
+  AOS.init();
+</script>
+</html>
